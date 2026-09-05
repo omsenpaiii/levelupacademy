@@ -1,0 +1,12 @@
+node_modules
+.next
+.env*
+!.env.example
+.vercel
+.neon
+*.tsbuildinfo
+playwright-report
+test-results
+.qa
+
+.DS_Store
