@@ -93,13 +93,11 @@ test("complete student and staff learning workflow", async ({ browser }) => {
     .locator("summary")
     .filter({ hasText: "Add an assessment or LLN" })
     .click();
-  const addAssessment = staff
-    .locator("details")
-    .filter({
-      has: staff
-        .locator("summary")
-        .filter({ hasText: "Add an assessment or LLN activity" }),
-    });
+  const addAssessment = staff.locator("details").filter({
+    has: staff
+      .locator("summary")
+      .filter({ hasText: "Add an assessment or LLN activity" }),
+  });
   await addAssessment.getByLabel("Assessment title").fill("QA: Reflection");
   await addAssessment
     .getByLabel("Student instructions")
@@ -140,12 +138,19 @@ test("complete student and staff learning workflow", async ({ browser }) => {
   ).toBeVisible({ timeout: 15000 });
   await staff.goto("http://localhost:3000/admin/assessments");
   await staff.locator("summary").filter({ hasText: "QA: Reflection" }).click();
-  await staff.getByLabel("Assessment outcome").selectOption("not_satisfactory");
-  await staff
+  const review = staff
+    .locator("details")
+    .filter({
+      has: staff.locator("summary").filter({ hasText: "QA: Reflection" }),
+    });
+  await review
+    .getByLabel("Assessment outcome")
+    .selectOption("not_satisfactory");
+  await review
     .getByLabel("Feedback for the student")
     .fill("Please add a specific practice activity.");
-  await staff.getByRole("button", { name: "Save review" }).click();
-  await expect(staff.getByRole("status")).toContainText("Changes saved", {
+  await review.getByRole("button", { name: "Save review" }).click();
+  await expect(review.getByRole("status")).toContainText("Changes saved", {
     timeout: 15000,
   });
   await page.reload();
