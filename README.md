@@ -36,6 +36,8 @@ Files are limited to PDF, DOCX, XLSX, PNG and JPEG, 20 MB. Private uploads are s
 
 ## Deployment
 
+Production portal: https://levelupacademy-five.vercel.app/students. The shorter levelupacademy.vercel.app hostname belongs to a different project; do not configure it as an authentication origin.
+
 Vercel project: `levelupacademy`, `prj_ro1KdJv0PxX4l7pFQ4THOLhmXje9`.
 Neon project: `divine-hat-86015127`.
 Production branch: `br-winter-term-a7gdzxoh`.

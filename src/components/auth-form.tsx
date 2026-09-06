@@ -235,7 +235,7 @@ export function AuthForm({
                 className={`notice ${error ? "error" : "success"}`}
               >
                 {message}
-                {signin && error && (
+                {signin && error && /verif/i.test(message) && (
                   <Link className="text-link spaced" href="/auth/verify">
                     Verify your email address
                   </Link>

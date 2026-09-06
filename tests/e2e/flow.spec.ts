@@ -93,19 +93,29 @@ test("complete student and staff learning workflow", async ({ browser }) => {
     .locator("summary")
     .filter({ hasText: "Add an assessment or LLN" })
     .click();
-  await staff.getByLabel("Assessment title").fill("QA: Reflection");
-  await staff
+  const addAssessment = staff
+    .locator("details")
+    .filter({
+      has: staff
+        .locator("summary")
+        .filter({ hasText: "Add an assessment or LLN activity" }),
+    });
+  await addAssessment.getByLabel("Assessment title").fill("QA: Reflection");
+  await addAssessment
     .getByLabel("Student instructions")
     .fill(
       "Describe one goal for your next learning session. This is a development test.",
     );
-  await staff.getByLabel("Publish approved assessment").check();
-  await staff
+  await addAssessment.getByLabel("Publish approved assessment").check();
+  await addAssessment
     .getByRole("button", { name: "Add assessment", exact: true })
     .click();
-  await expect(staff.getByRole("status")).toContainText("Changes saved", {
-    timeout: 15000,
-  });
+  await expect(addAssessment.getByRole("status")).toContainText(
+    "Changes saved",
+    {
+      timeout: 15000,
+    },
+  );
   await page.goto(
     "http://localhost:3000/students/learn/general-english-elicos",
   );
