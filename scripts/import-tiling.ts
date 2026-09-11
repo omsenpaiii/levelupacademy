@@ -3,7 +3,7 @@ import { Pool } from "pg";
 import { drizzle } from "drizzle-orm/node-postgres";
 import { eq, and } from "drizzle-orm";
 import { createHash } from "node:crypto";
-import { readFileSync, createReadStream, existsSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 import { head, put } from "@vercel/blob";
 import * as s from "../src/lib/schema";
@@ -95,7 +95,7 @@ async function main() {
             /* A new source file needs an upload. */
           }
           if (!stored)
-            await put(pathname, createReadStream(resolve(root, f.path)), {
+            await put(pathname, readFileSync(resolve(root, f.path)), {
               token,
               access: "private",
               contentType,
