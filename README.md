@@ -32,7 +32,7 @@ Register through `/auth/sign-up` and verify the email using the code. The operat
 6. Staff record course completion and certificate status separately from lesson progress. This portal does not issue qualifications automatically.
 7. Excel enrolment import previews and validates every row, then imports atomically. Accounts must exist first. Imports do not send invitations or create passwords. Export student, application, enrolment and assessment records from staff tools.
 
-Files are limited to PDF, DOCX, XLSX, PNG and JPEG, 20 MB. Private uploads are scoped to an authorised course/assessment. Downloads always recheck the session, ownership and enrolment. Video embedding supports YouTube, Vimeo and Google Drive; media permissions must also be set correctly at the video provider.
+Files are limited to PDF, DOCX, XLSX, PPTX, PNG and JPEG, 20 MB. Private uploads are scoped to an authorised course/assessment. Downloads always recheck the session, ownership and enrolment. Video embedding supports YouTube, Vimeo and Google Drive; media permissions must also be set correctly at the video provider.
 
 ## Deployment
 
@@ -52,6 +52,10 @@ Runtime errors are visible in Vercel logs. Staff operations are recorded in `aud
 ## Wix connection (later)
 
 Connect `students.levelupacademy.vic.edu.au` to this Vercel project using the DNS value provided by Vercel. Keep the existing apex/www and email records. Add the subdomain to Neon Auth trusted domains and update NEXT_PUBLIC_APP_URL. Add a Wix `/students` redirect and navigation item only when ready to direct students there. No Wix pages or DNS records are modified by this phase.
+
+## Supplied tiling resources
+
+The Certificate III in Wall and Floor Tiling course contains 17 core-unit resource pages, 17 trainer-reviewed assessment packs and 88 original private downloads. See [the import runbook](docs/tiling-import.md) and [source manifest](docs/tiling-resources.json). Staff can add a resource inside a lesson editor to keep it scoped to that unit. The supplied SVG logo is used throughout the portal.
 
 ## Phase 2
 

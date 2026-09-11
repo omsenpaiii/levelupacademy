@@ -6,7 +6,7 @@ import {
   ArrowRight,
   Play,
   CheckCircle2,
-  Download,
+  ClipboardList,
 } from "lucide-react";
 import { requireUser } from "@/lib/session";
 import { courseBySlug, assertAccess } from "@/lib/data";
@@ -14,6 +14,8 @@ import { db } from "@/lib/db";
 import * as s from "@/lib/schema";
 import { Heading, Empty, ProgressBar } from "@/components/ui";
 import { ActionButton } from "@/components/forms";
+import { ResourceList } from "@/components/resource-list";
+import { lessonResources } from "@/lib/resources";
 import { videoEmbed } from "@/lib/validation";
 export default async function Page({
   params,
@@ -55,6 +57,20 @@ export default async function Page({
   const completed = current && done.some((l) => l.id === current.id);
   const embed = current?.videoUrl ? videoEmbed(current.videoUrl) : null;
   const next = current ? lessons[lessons.indexOf(current) + 1] : null;
+  const downloads = lessonResources(resources, current?.id || "");
+  const unitAssessments = current
+    ? await db
+        .selectDistinct({ id: s.assessments.id, title: s.assessments.title })
+        .from(s.assessments)
+        .innerJoin(s.files, eq(s.files.assessmentId, s.assessments.id))
+        .where(
+          and(
+            eq(s.files.lessonId, current.id),
+            eq(s.assessments.courseId, c.id),
+            eq(s.assessments.published, true),
+          ),
+        )
+    : [];
   return (
     <>
       <Link className="back-link" href="/students/my-courses">
@@ -107,30 +123,54 @@ export default async function Page({
                 </div>
               </div>
             </section>
-            <div className="section-title">
-              <h2>Course resources</h2>
-            </div>
-            {resources.filter((r) => !r.assessmentId).length ? (
-              resources
-                .filter((r) => !r.assessmentId)
-                .map((r) => (
-                  <a
-                    className="resource-link"
-                    key={r.id}
-                    href={`/api/files/${r.id}`}
-                  >
-                    <Download size={19} />
-                    <div>
-                      <h3>{r.title}</h3>
-                      <p>Download learning resource</p>
-                    </div>
-                  </a>
-                ))
-            ) : (
-              <p className="text-small muted">
-                Your trainer hasn’t added any course downloads yet.
-              </p>
+            {downloads.unit.length > 0 && (
+              <section
+                className="unit-downloads"
+                aria-label="Unit learning resources"
+              >
+                <div className="section-title">
+                  <h2>Unit resources</h2>
+                  <span className="badge">{downloads.unit.length} files</span>
+                </div>
+                <p className="text-small muted resource-intro">
+                  Start with the learner guide, then work through the
+                  presentation, self-study guide and class activities with your
+                  trainer.
+                </p>
+                <ResourceList resources={downloads.unit} />
+              </section>
             )}
+            {unitAssessments.map((a) => (
+              <section className="unit-assessment panel panel-body" key={a.id}>
+                <span className="category">
+                  <ClipboardList size={15} /> Assessment
+                </span>
+                <h2>{a.title}</h2>
+                <p className="prose spaced">
+                  Read the student pack and follow your trainer’s instructions.
+                  Submit your completed work for review; practical tasks are
+                  assessed by your trainer.
+                </p>
+                <Link
+                  className="button spaced"
+                  href={`/students/assessments/${a.id}`}
+                >
+                  Open assessment <ArrowRight size={15} />
+                </Link>
+              </section>
+            ))}
+            <section aria-label="Shared course resources">
+              <div className="section-title">
+                <h2>Course resources</h2>
+              </div>
+              {downloads.course.length ? (
+                <ResourceList resources={downloads.course} />
+              ) : (
+                <p className="text-small muted">
+                  Your trainer hasn’t added any shared course downloads yet.
+                </p>
+              )}
+            </section>
           </div>
           <aside className="panel">
             <div className="panel-body">

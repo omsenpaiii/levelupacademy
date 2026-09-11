@@ -1,10 +1,11 @@
 import { NextResponse } from "next/server";
 import { get } from "@vercel/blob";
 import { eq } from "drizzle-orm";
+import { resourceFilename } from "@/lib/resources";
 import { apiUser } from "@/lib/session";
 import { assertAccess } from "@/lib/data";
 import { db } from "@/lib/db";
-import { files, assessments } from "@/lib/schema";
+import { files, assessments, lessons } from "@/lib/schema";
 export async function GET(
   _: Request,
   { params }: { params: Promise<{ id: string }> },
@@ -24,12 +25,19 @@ export async function GET(
       });
       if (!a?.published) throw Error("Not available");
     }
+    if (f.lessonId && u.role !== "admin") {
+      const lesson = await db.query.lessons.findFirst({
+        where: eq(lessons.id, f.lessonId),
+      });
+      if (!lesson?.published || lesson.courseId !== f.courseId)
+        throw Error("Not available");
+    }
     const result = await get(f.pathname, { access: "private" });
     if (!result || result.statusCode !== 200) throw Error("Not available");
     return new Response(result.stream, {
       headers: {
         "Content-Type": f.contentType,
-        "Content-Disposition": `attachment; filename*=UTF-8''${encodeURIComponent(f.title)}`,
+        "Content-Disposition": `attachment; filename*=UTF-8''${encodeURIComponent(resourceFilename(f.title, f.contentType))}`,
         "Cache-Control": "private, no-store",
         "X-Content-Type-Options": "nosniff",
       },

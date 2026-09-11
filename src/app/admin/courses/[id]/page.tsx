@@ -118,6 +118,9 @@ export default async function Page({
           </summary>
           <div>
             <LessonEditor courseId={id} modules={modules} lesson={l} />
+            <div className="spaced">
+              <ResourceUpload courseId={id} lessonId={l.id} />
+            </div>
           </div>
         </details>
       ))}

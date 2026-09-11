@@ -4,7 +4,7 @@ import { z } from "zod";
 import { apiUser } from "@/lib/session";
 import { assertAccess } from "@/lib/data";
 import { db } from "@/lib/db";
-import { files, assessments } from "@/lib/schema";
+import { files, assessments, lessons } from "@/lib/schema";
 import { eq, and } from "drizzle-orm";
 import { uploadTypes, maxUpload } from "@/lib/validation";
 export async function POST(request: NextRequest) {
@@ -19,12 +19,23 @@ export async function POST(request: NextRequest) {
           .object({
             courseId: z.string(),
             assessmentId: z.string().optional(),
+            lessonId: z.string().optional(),
             kind: z.enum(["resource", "submission"]),
           })
           .parse(JSON.parse(payload || "{}"));
         if (v.kind === "resource" && u.role !== "admin")
           throw Error("Staff access required.");
         await assertAccess(u.id, v.courseId);
+        if (v.lessonId) {
+          const lesson = await db.query.lessons.findFirst({
+            where: and(
+              eq(lessons.id, v.lessonId),
+              eq(lessons.courseId, v.courseId),
+            ),
+          });
+          if (!lesson || v.kind !== "resource")
+            throw Error("Select a lesson from this course.");
+        }
         if (v.kind === "submission" && !v.assessmentId)
           throw Error("Select an assessment.");
         if (v.assessmentId) {

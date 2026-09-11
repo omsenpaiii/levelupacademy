@@ -1,0 +1,973 @@
+{
+  "courseSlug": "certificate-iii-in-wall-and-floor-tiling",
+  "source": "Client supplied via Justin Scrimshaw, September 2026",
+  "units": [
+    {
+      "code": "CPCCWHS2001",
+      "title": "Apply WHS requirements, policies and procedures in the construction industry",
+      "position": 0
+    },
+    {
+      "code": "CPCCCM2006",
+      "title": "Apply basic levelling procedures",
+      "position": 1
+    },
+    {
+      "code": "CPCCOM1012",
+      "title": "Work effectively and sustainably in the construction industry",
+      "position": 2
+    },
+    {
+      "code": "CPCCOM1013",
+      "title": "Plan and organise work",
+      "position": 3
+    },
+    {
+      "code": "CPCCOM1014",
+      "title": "Conduct workplace communication",
+      "position": 4
+    },
+    {
+      "code": "CPCCOM1015",
+      "title": "Carry out measurements and calculations",
+      "position": 5
+    },
+    {
+      "code": "CPCCOM2001",
+      "title": "Read and interpret plans and specifications",
+      "position": 6
+    },
+    {
+      "code": "CPCCWF2001",
+      "title": "Handle wall and floor tiling materials",
+      "position": 7
+    },
+    {
+      "code": "CPCCWF2002",
+      "title": "Use wall and floor tiling tools and equipment",
+      "position": 8
+    },
+    {
+      "code": "CPCCWF3001",
+      "title": "Prepare surfaces for tiling application",
+      "position": 9
+    },
+    {
+      "code": "CPCCWF3002",
+      "title": "Install floor tiles",
+      "position": 10
+    },
+    {
+      "code": "CPCCWF3003",
+      "title": "Install wall tiles",
+      "position": 11
+    },
+    {
+      "code": "CPCCWF3004",
+      "title": "Repair wall and floor tiling",
+      "position": 12
+    },
+    {
+      "code": "CPCCWF3005",
+      "title": "Install decorative tiling",
+      "position": 13
+    },
+    {
+      "code": "CPCCWF3006",
+      "title": "Install mosaic tiling",
+      "position": 14
+    },
+    {
+      "code": "CPCCWF3007",
+      "title": "Tile curved surfaces",
+      "position": 15
+    },
+    {
+      "code": "CPCCWF3009",
+      "title": "Apply waterproofing for wall and floor tiling",
+      "position": 16
+    }
+  ],
+  "files": [
+    {
+      "path": "Certificate III in Wall and Floor Tiling.pdf",
+      "size": 526821,
+      "sha256": "d3395612cc12babbc14f11a054b56cded4e908001dbb81ddc4d5636d2f27b356",
+      "unitCode": null,
+      "kind": "brochure",
+      "title": "Course brochure",
+      "pages": 1,
+      "slides": null
+    },
+    {
+      "path": "Resources/1. CPCCWHS2001 Apply WHS requirements, policies and procedures in the construction industry/CPCCWHS2001 Class activity book - Student.pdf (1).pdf",
+      "size": 3153702,
+      "sha256": "58b0727f27111ae9e095c55067be4c9e2f096cac3a25306f86a671d73fdebabf",
+      "unitCode": "CPCCWHS2001",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 16,
+      "slides": null
+    },
+    {
+      "path": "Resources/1. CPCCWHS2001 Apply WHS requirements, policies and procedures in the construction industry/CPCCWHS2001 Learner Guide.pdf",
+      "size": 2845473,
+      "sha256": "2d5e914aff812dfd2b0aa3c92e6a244051c4e65a6727a08506cfbfe3b1be9654",
+      "unitCode": "CPCCWHS2001",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 94,
+      "slides": null
+    },
+    {
+      "path": "Resources/1. CPCCWHS2001 Apply WHS requirements, policies and procedures in the construction industry/CPCCWHS2001 Presentation.pptx",
+      "size": 11477330,
+      "sha256": "0c47e6e35bb4269bcceb451ed39b8b6ffd6422cd91c06ac8a354edc1376c0e8f",
+      "unitCode": "CPCCWHS2001",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 47
+    },
+    {
+      "path": "Resources/1. CPCCWHS2001 Apply WHS requirements, policies and procedures in the construction industry/CPCCWHS2001 Self Study Guide.pdf",
+      "size": 456767,
+      "sha256": "b8017d66c60a6c322f2aa7b8ecab549c01bb1af4666dabc13d95efa6628ae1f6",
+      "unitCode": "CPCCWHS2001",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 6,
+      "slides": null
+    },
+    {
+      "path": "Resources/1. CPCCWHS2001 Apply WHS requirements, policies and procedures in the construction industry/CPCCWHS2001 Student Pack V10.0.pdf",
+      "size": 1321535,
+      "sha256": "44111bbce514662f31d7923e0f0c200c29a79fd264254fc7251e8852ea601c20",
+      "unitCode": "CPCCWHS2001",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 102,
+      "slides": null
+    },
+    {
+      "path": "Resources/10. CPCCWF3001 Prepare surfaces for tiling application/CPCCWF3001 Class activity book - Student pack.pdf",
+      "size": 573977,
+      "sha256": "cdaf3d916d0c38d91bbe49cff136391b94f0fbccb6f943bf2bb98e1af9b6c5bd",
+      "unitCode": "CPCCWF3001",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 8,
+      "slides": null
+    },
+    {
+      "path": "Resources/10. CPCCWF3001 Prepare surfaces for tiling application/CPCCWF3001 Learner Guide.pdf",
+      "size": 2792043,
+      "sha256": "6add6d4bd7e2dafe9943f271e896524be73a2c9eaf4d39aa57bd93ed3ffe9bee",
+      "unitCode": "CPCCWF3001",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 84,
+      "slides": null
+    },
+    {
+      "path": "Resources/10. CPCCWF3001 Prepare surfaces for tiling application/CPCCWF3001 Presentation.pptx",
+      "size": 6611634,
+      "sha256": "ec2a216157287ca5212ff6757c15546c73b0bbba54dff32ec37a30d3ea0c0553",
+      "unitCode": "CPCCWF3001",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 98
+    },
+    {
+      "path": "Resources/10. CPCCWF3001 Prepare surfaces for tiling application/CPCCWF3001 Self Study Guide.pdf",
+      "size": 491188,
+      "sha256": "8b39313cb106e6ffa48bbcdc5363a76c00704fc34b8ee6e0db75e01960a609b0",
+      "unitCode": "CPCCWF3001",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 7,
+      "slides": null
+    },
+    {
+      "path": "Resources/10. CPCCWF3001 Prepare surfaces for tiling application/CPCCWF3001 Student pack V10.0.pdf",
+      "size": 1172057,
+      "sha256": "5ab189ed6918e1db9d61e9d26bbc022932d83195e806b29beb66cc92a7b25bf3",
+      "unitCode": "CPCCWF3001",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 84,
+      "slides": null
+    },
+    {
+      "path": "Resources/11. CPCCWF3002 Install floor tiles/CPCCWF3002 Class activity book - Student pack.pdf",
+      "size": 599155,
+      "sha256": "994af9452d2a7cd90d535fefb1048d74c08f8450ac396093d0507d4be7a2defb",
+      "unitCode": "CPCCWF3002",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 8,
+      "slides": null
+    },
+    {
+      "path": "Resources/11. CPCCWF3002 Install floor tiles/CPCCWF3002 Learner Guide.pdf",
+      "size": 3599935,
+      "sha256": "7efa2727617c0dcf604ccf23ef75b071edd09ba402a55c82070b0670e4f8defc",
+      "unitCode": "CPCCWF3002",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 118,
+      "slides": null
+    },
+    {
+      "path": "Resources/11. CPCCWF3002 Install floor tiles/CPCCWF3002 Presentation.pptx",
+      "size": 1672156,
+      "sha256": "1ccb05f83c78c79378875bee193bee2955c641ece6a8e78fc09e9668ae73169c",
+      "unitCode": "CPCCWF3002",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 110
+    },
+    {
+      "path": "Resources/11. CPCCWF3002 Install floor tiles/CPCCWF3002 Self Study Guide.pdf",
+      "size": 565697,
+      "sha256": "c404d5550e216a90089f861b79c8511281a86e4410e327d47a2774e6c5f89b5a",
+      "unitCode": "CPCCWF3002",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 9,
+      "slides": null
+    },
+    {
+      "path": "Resources/11. CPCCWF3002 Install floor tiles/CPCCWF3002 Student pack V10.0.pdf",
+      "size": 1632986,
+      "sha256": "87bff6beb0dd5f114b3f56384256953a3502eb743e2d10f9b0b7112b954ca247",
+      "unitCode": "CPCCWF3002",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 160,
+      "slides": null
+    },
+    {
+      "path": "Resources/12. CPCCWF3003 Install wall tiles/CPCCWF3003 Class activity book - Student pack.pdf",
+      "size": 523690,
+      "sha256": "12fb44841c6efa6c1170b10fb446b02b5d01deb045cf882b230860027c91f3a6",
+      "unitCode": "CPCCWF3003",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 12,
+      "slides": null
+    },
+    {
+      "path": "Resources/12. CPCCWF3003 Install wall tiles/CPCCWF3003 Learner Guide.pdf",
+      "size": 5109264,
+      "sha256": "67457dee732d82f088c7530ccaa2924fdfd7b8931d8788b5f4a6c7f1ca09530b",
+      "unitCode": "CPCCWF3003",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 147,
+      "slides": null
+    },
+    {
+      "path": "Resources/12. CPCCWF3003 Install wall tiles/CPCCWF3003 Presentation.pptx",
+      "size": 4015972,
+      "sha256": "698b19f539a4160bb56a58f036d6fa784120c91f9a93cff199e10654661cbadd",
+      "unitCode": "CPCCWF3003",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 127
+    },
+    {
+      "path": "Resources/12. CPCCWF3003 Install wall tiles/CPCCWF3003 Self Study Guide.pdf",
+      "size": 525110,
+      "sha256": "efca206ec267c32edabd935e179f8c23aa9962de028dfcb3e4fd93fe7fdf2394",
+      "unitCode": "CPCCWF3003",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 8,
+      "slides": null
+    },
+    {
+      "path": "Resources/12. CPCCWF3003 Install wall tiles/CPCCWF3003 Student pack V10.0.pdf",
+      "size": 1590002,
+      "sha256": "cbb09dce27cd0456bb01db5609889e5d0737b0e86986a06bd298998f427c5d9a",
+      "unitCode": "CPCCWF3003",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 149,
+      "slides": null
+    },
+    {
+      "path": "Resources/13. CPCCWF3004 Repair wall and floor tiling/CPCCWF3004 Class activity book - Student pack.pdf",
+      "size": 490897,
+      "sha256": "f5b0bfb8398954aecb28cb3725a59c97ef00f4fcfd08ed4455e78c8e5344f8c1",
+      "unitCode": "CPCCWF3004",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 9,
+      "slides": null
+    },
+    {
+      "path": "Resources/13. CPCCWF3004 Repair wall and floor tiling/CPCCWF3004 Learner Guide.pdf",
+      "size": 2462852,
+      "sha256": "c9168024518f3d07f4e9280b5d25fbd0be6d754984c493b02ac4ed1207a3e269",
+      "unitCode": "CPCCWF3004",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 78,
+      "slides": null
+    },
+    {
+      "path": "Resources/13. CPCCWF3004 Repair wall and floor tiling/CPCCWF3004 Presentation.pptx",
+      "size": 1630105,
+      "sha256": "35dc5204f54a1a8a0906ff11048e164f33f0acbcf567d61639fa1b72c1855db7",
+      "unitCode": "CPCCWF3004",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 72
+    },
+    {
+      "path": "Resources/13. CPCCWF3004 Repair wall and floor tiling/CPCCWF3004 Self Study Guide.pdf",
+      "size": 527967,
+      "sha256": "00f4d650aa6804b1d188298edc72ffa4eb548db9a0c1bb7581ebf93ed3d5feb5",
+      "unitCode": "CPCCWF3004",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 4,
+      "slides": null
+    },
+    {
+      "path": "Resources/13. CPCCWF3004 Repair wall and floor tiling/CPCCWF3004 Student Pack V10.0.pdf",
+      "size": 853187,
+      "sha256": "7031fb1ba287a75badb1b1f2bae64f374ccfbabac48d0c1837309e973e1707cf",
+      "unitCode": "CPCCWF3004",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 66,
+      "slides": null
+    },
+    {
+      "path": "Resources/14. CPCCWF3005 Install decorative tiling/CPCCWF3005 Class activity book - Student pack.pdf",
+      "size": 545621,
+      "sha256": "83cb34c87090f4f7543d5133f470071dfa5728213a4d3ee9c6d0f6597cd13995",
+      "unitCode": "CPCCWF3005",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 6,
+      "slides": null
+    },
+    {
+      "path": "Resources/14. CPCCWF3005 Install decorative tiling/CPCCWF3005 Learner Guide.pdf",
+      "size": 3022207,
+      "sha256": "bdda94149a01d3979a027197cf151cb991215fcab9b93f26cc921210208ad14e",
+      "unitCode": "CPCCWF3005",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 121,
+      "slides": null
+    },
+    {
+      "path": "Resources/14. CPCCWF3005 Install decorative tiling/CPCCWF3005 Presentation.pptx",
+      "size": 1331487,
+      "sha256": "d4fb1101b52e74d0c8868032491e04e63bbff08762f157bd777c8ece6ddf4c7c",
+      "unitCode": "CPCCWF3005",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 95
+    },
+    {
+      "path": "Resources/14. CPCCWF3005 Install decorative tiling/CPCCWF3005 Self Study Guide.pdf",
+      "size": 546733,
+      "sha256": "ab22945feae25d7f10ad87eebc46d8c5408c4fe139a446b8de1bc7550cb7949c",
+      "unitCode": "CPCCWF3005",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 6,
+      "slides": null
+    },
+    {
+      "path": "Resources/14. CPCCWF3005 Install decorative tiling/CPCCWF3005 Student Pack V10.0.pdf",
+      "size": 1070067,
+      "sha256": "e89715acf7128a521f95a07193a3591d728bb8aade5e487f152e0093488ce51f",
+      "unitCode": "CPCCWF3005",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 90,
+      "slides": null
+    },
+    {
+      "path": "Resources/15. CPCCWF3006 Install mosaic tiling/CPCCWF3006 Class activity book - Student pack.pdf",
+      "size": 649166,
+      "sha256": "97d360b214754b41712a0872c9e4b6b8004cd06ed19b2c7bce806cb672725359",
+      "unitCode": "CPCCWF3006",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 9,
+      "slides": null
+    },
+    {
+      "path": "Resources/15. CPCCWF3006 Install mosaic tiling/CPCCWF3006 Learner Guide.pdf",
+      "size": 3581415,
+      "sha256": "acd44774ffbb291207c8c0a222ea25da4e78137fa051e0a89dd9db240b6700d5",
+      "unitCode": "CPCCWF3006",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 102,
+      "slides": null
+    },
+    {
+      "path": "Resources/15. CPCCWF3006 Install mosaic tiling/CPCCWF3006 Presentation.pptx",
+      "size": 1946253,
+      "sha256": "6b9d77276a81350c46e10f00c82aaf3a82fe556d4b28fd8d9d379fb7ae8f3d0c",
+      "unitCode": "CPCCWF3006",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 107
+    },
+    {
+      "path": "Resources/15. CPCCWF3006 Install mosaic tiling/CPCCWF3006 Self Study Guide.pdf",
+      "size": 530967,
+      "sha256": "c618365f4d0d550c1bbe150f1df4fd7436c8a14fcb18a954629069a3f2f7063b",
+      "unitCode": "CPCCWF3006",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 8,
+      "slides": null
+    },
+    {
+      "path": "Resources/15. CPCCWF3006 Install mosaic tiling/CPCCWF3006 Student Pack V10.0.pdf",
+      "size": 979644,
+      "sha256": "7c69bab7e91332ff0f79d6ff8ebb24e4b305f252d5a3fc23e66fef30334a3581",
+      "unitCode": "CPCCWF3006",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 89,
+      "slides": null
+    },
+    {
+      "path": "Resources/16. CPCCWF3007 Tile curved surfaces/CPCCWF3007 Class activity book - Student pack.pdf",
+      "size": 595390,
+      "sha256": "c0575371a3c4d17b1600547f99b2a0f2b44d074043f3efc01edcd8210fb5612d",
+      "unitCode": "CPCCWF3007",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 7,
+      "slides": null
+    },
+    {
+      "path": "Resources/16. CPCCWF3007 Tile curved surfaces/CPCCWF3007 Learner Guide.pdf",
+      "size": 4333448,
+      "sha256": "c36f413d369968f7cd7fac039b07a8d7f663d50e4f6f1655d67b8b84c0a8b41b",
+      "unitCode": "CPCCWF3007",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 120,
+      "slides": null
+    },
+    {
+      "path": "Resources/16. CPCCWF3007 Tile curved surfaces/CPCCWF3007 Presentation.pptx",
+      "size": 1718990,
+      "sha256": "4ab07eb45fa3525d43072ca1189e91b03d42a9d48d8b2631759705145daabd07",
+      "unitCode": "CPCCWF3007",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 132
+    },
+    {
+      "path": "Resources/16. CPCCWF3007 Tile curved surfaces/CPCCWF3007 Self Study Guide.pdf",
+      "size": 715293,
+      "sha256": "dd6ae8c44634bbd28bd5fbbb1665779ff5f3ea74ecb8c02fd7d251088af37ff4",
+      "unitCode": "CPCCWF3007",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 6,
+      "slides": null
+    },
+    {
+      "path": "Resources/16. CPCCWF3007 Tile curved surfaces/CPCCWF3007 Student pack V10.0.pdf",
+      "size": 1026980,
+      "sha256": "968d0a1152b5270548fcaadf807d4866001e0232495b59fee184071959ce9de7",
+      "unitCode": "CPCCWF3007",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 77,
+      "slides": null
+    },
+    {
+      "path": "Resources/17. CPCCWF3009 Apply waterproofing for wall and floor tiling/CPCCWF3009 Class activity book - Student Pack.pdf",
+      "size": 560826,
+      "sha256": "941ad2a2a3f2430a6650f7704e69fb917caa653ea5cb6653c5a224c96d990895",
+      "unitCode": "CPCCWF3009",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 7,
+      "slides": null
+    },
+    {
+      "path": "Resources/17. CPCCWF3009 Apply waterproofing for wall and floor tiling/CPCCWF3009 Learner Guide.pdf",
+      "size": 3416098,
+      "sha256": "672638dbaad30e728db2bbf8d70b0d34457cf41eb62f630756732fa2af547175",
+      "unitCode": "CPCCWF3009",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 108,
+      "slides": null
+    },
+    {
+      "path": "Resources/17. CPCCWF3009 Apply waterproofing for wall and floor tiling/CPCCWF3009 Presentation.pptx",
+      "size": 3076454,
+      "sha256": "19c31bb65d95a0d88549e2f7596ef025020c5ed9c3b077bdc4d73dd31c523993",
+      "unitCode": "CPCCWF3009",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 100
+    },
+    {
+      "path": "Resources/17. CPCCWF3009 Apply waterproofing for wall and floor tiling/CPCCWF3009 Self Study Guide.pdf",
+      "size": 455671,
+      "sha256": "e37fbdb08d16f95d2c1218457b68c4e5bdccce4c8cf2b15dc10b667ffc7ff9ef",
+      "unitCode": "CPCCWF3009",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 6,
+      "slides": null
+    },
+    {
+      "path": "Resources/17. CPCCWF3009 Apply waterproofing for wall and floor tiling/CPCCWF3009 Student Pack V10.0.pdf",
+      "size": 1047135,
+      "sha256": "81e5e666329c0a148fc9cb33238c30be0079fd41695f0c4bb33c95f5f1f2b67c",
+      "unitCode": "CPCCWF3009",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 87,
+      "slides": null
+    },
+    {
+      "path": "Resources/2. CPCCCM2006 Apply basic levelling procedures/CPCCCM2006 Class activity book - Student.pdf",
+      "size": 600933,
+      "sha256": "a300219530b3ffc7eb173d4042ce24ff759e2c1434c13c16a55e19d16ecded2a",
+      "unitCode": "CPCCCM2006",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 9,
+      "slides": null
+    },
+    {
+      "path": "Resources/2. CPCCCM2006 Apply basic levelling procedures/CPCCCM2006 Learner Guide.pdf",
+      "size": 1897612,
+      "sha256": "7df4f1d45d3c3432faa5be67671df13ffee5256498dffeaca748fccc762bc901",
+      "unitCode": "CPCCCM2006",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 63,
+      "slides": null
+    },
+    {
+      "path": "Resources/2. CPCCCM2006 Apply basic levelling procedures/CPCCCM2006 Presentation.pptx",
+      "size": 2097890,
+      "sha256": "a50373045cda1a803ccc2c2fbbca1692feba66e23aec69e3724543a6f5131bb5",
+      "unitCode": "CPCCCM2006",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 41
+    },
+    {
+      "path": "Resources/2. CPCCCM2006 Apply basic levelling procedures/CPCCCM2006 Self Study Guide.pdf",
+      "size": 438675,
+      "sha256": "ada7ce1fa024ccd07476946bc7e61a9c82da88d7b58b6b0c1e940f62b202252c",
+      "unitCode": "CPCCCM2006",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 5,
+      "slides": null
+    },
+    {
+      "path": "Resources/2. CPCCCM2006 Apply basic levelling procedures/CPCCCM2006 Student Pack V10.0.pdf",
+      "size": 1162785,
+      "sha256": "5fa4df925e9c49158d2521a28b946649acb7dbafeb1931c02977090867f7d4ea",
+      "unitCode": "CPCCCM2006",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 104,
+      "slides": null
+    },
+    {
+      "path": "Resources/3. CPCCOM1012 Work effectively and sustainably in the construction industry/CPCCOM1012 Class activity book - Student.pdf",
+      "size": 528140,
+      "sha256": "6ee98b032e1ae458571c3210e11c682e8d69224ab262e962908b7a099912fe31",
+      "unitCode": "CPCCOM1012",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 17,
+      "slides": null
+    },
+    {
+      "path": "Resources/3. CPCCOM1012 Work effectively and sustainably in the construction industry/CPCCOM1012 Learner Guide.pdf",
+      "size": 2575704,
+      "sha256": "f919c57d940ec331ef1d019329d9b7c23f8b27d23d1123df4d9b048a9120f8e3",
+      "unitCode": "CPCCOM1012",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 63,
+      "slides": null
+    },
+    {
+      "path": "Resources/3. CPCCOM1012 Work effectively and sustainably in the construction industry/CPCCOM1012 Presentation.pptx",
+      "size": 655467,
+      "sha256": "1c5b53834ad24e2a132ce155329d3e5b2f98edb913c16897b03f8615fb3c282d",
+      "unitCode": "CPCCOM1012",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 37
+    },
+    {
+      "path": "Resources/3. CPCCOM1012 Work effectively and sustainably in the construction industry/CPCCOM1012 Self Study Guide.pdf",
+      "size": 534806,
+      "sha256": "8d755a4cfb0c174e4ab73fe8dcc937ddd879b5d63af7963269462cb62e8add30",
+      "unitCode": "CPCCOM1012",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 4,
+      "slides": null
+    },
+    {
+      "path": "Resources/3. CPCCOM1012 Work effectively and sustainably in the construction industry/CPCCOM1012 Student Pack V10.0.pdf",
+      "size": 989859,
+      "sha256": "b3182ee6bfb665e8b8b885bd8779e73a1a24489cb33ee9789b48de41df61f777",
+      "unitCode": "CPCCOM1012",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 55,
+      "slides": null
+    },
+    {
+      "path": "Resources/4. CPCCOM1013 Plan and organise work/CPCCOM1013 Class activity book- Student.pdf",
+      "size": 533027,
+      "sha256": "597d7a2d770a06a13edc00a83ca06707d519cc10a982d7d238d1948c02b0c8ad",
+      "unitCode": "CPCCOM1013",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 6,
+      "slides": null
+    },
+    {
+      "path": "Resources/4. CPCCOM1013 Plan and organise work/CPCCOM1013 Learner guide.pdf",
+      "size": 1956789,
+      "sha256": "0713b4cbf55c24a38c499966d93f855acc468782b97e17eb11398d6b6aa743d6",
+      "unitCode": "CPCCOM1013",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 60,
+      "slides": null
+    },
+    {
+      "path": "Resources/4. CPCCOM1013 Plan and organise work/CPCCOM1013 Presentation.pptx",
+      "size": 2365506,
+      "sha256": "a0adb89874b5be255bf30f48160bc075074aa46b29327024c6332304951251f7",
+      "unitCode": "CPCCOM1013",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 58
+    },
+    {
+      "path": "Resources/4. CPCCOM1013 Plan and organise work/CPCCOM1013 Self Study Guide.pdf",
+      "size": 507826,
+      "sha256": "4e6289d8c8087ed586200acd45c3c1c8c161c3d44268041dfd607de4ebfb1161",
+      "unitCode": "CPCCOM1013",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 4,
+      "slides": null
+    },
+    {
+      "path": "Resources/4. CPCCOM1013 Plan and organise work/CPCCOM1013 Student Pack V10.0.pdf",
+      "size": 864804,
+      "sha256": "3562f74b79d87d31c3b675eab0140a1860fdec449b0f09775de30727a5174d56",
+      "unitCode": "CPCCOM1013",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 50,
+      "slides": null
+    },
+    {
+      "path": "Resources/5. CPCCOM1014 Conduct workplace communication/CPCCOM1014 Class activity book - Student.pdf",
+      "size": 574454,
+      "sha256": "db53b19c2bd02fca5c419aff182e5862558da826ad9508e3a905c8fd0eda90a2",
+      "unitCode": "CPCCOM1014",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 14,
+      "slides": null
+    },
+    {
+      "path": "Resources/5. CPCCOM1014 Conduct workplace communication/CPCCOM1014 Learner Guide.pdf",
+      "size": 1308502,
+      "sha256": "68a14477ed210d076c98f8b4ba3b6da27ba3d6e1f7b6d47259d64d885143012c",
+      "unitCode": "CPCCOM1014",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 62,
+      "slides": null
+    },
+    {
+      "path": "Resources/5. CPCCOM1014 Conduct workplace communication/CPCCOM1014 Presentation.pptx",
+      "size": 1454509,
+      "sha256": "0c6db06c10f5d1b088e5e3b0e7f889a07778197de97684d415814ddfb816702d",
+      "unitCode": "CPCCOM1014",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 29
+    },
+    {
+      "path": "Resources/5. CPCCOM1014 Conduct workplace communication/CPCCOM1014 Self Study Guide.pdf",
+      "size": 517066,
+      "sha256": "16e20fb6417992522ed8078d9155b490b31270e9667af83097588fec72d7821a",
+      "unitCode": "CPCCOM1014",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 4,
+      "slides": null
+    },
+    {
+      "path": "Resources/5. CPCCOM1014 Conduct workplace communication/CPCCOM1014 Student Pack V10.0.pdf",
+      "size": 781633,
+      "sha256": "bc55bfcdbdeecc5583b72ba738b832bee63ebd3c716d20666d083ff2138a9ded",
+      "unitCode": "CPCCOM1014",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 42,
+      "slides": null
+    },
+    {
+      "path": "Resources/6. CPCCOM1015 Carry out measurements and calculations/CPCCOM1015 Class activity book - Student.pdf",
+      "size": 629088,
+      "sha256": "feada8b4e450843b7a361f7bdd74d934ccb5705ce33d487a72b852b2fc56acad",
+      "unitCode": "CPCCOM1015",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 8,
+      "slides": null
+    },
+    {
+      "path": "Resources/6. CPCCOM1015 Carry out measurements and calculations/CPCCOM1015 Learner Guide.pdf",
+      "size": 1465182,
+      "sha256": "9079a31d4e8147eadb13f5c24893b7f0046ece22ab55128b2d87187d2a6bebc2",
+      "unitCode": "CPCCOM1015",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 41,
+      "slides": null
+    },
+    {
+      "path": "Resources/6. CPCCOM1015 Carry out measurements and calculations/CPCCOM1015 Presentation.pptx",
+      "size": 2922605,
+      "sha256": "4cb13263b6dcbc9c36a338d7edf441a64dfa217da9b33bef4bf695196b6d8126",
+      "unitCode": "CPCCOM1015",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 53
+    },
+    {
+      "path": "Resources/6. CPCCOM1015 Carry out measurements and calculations/CPCCOM1015 Self Study Guide.pdf",
+      "size": 424463,
+      "sha256": "b4d3b879522b993294a23c20b7aec4cd607e3887b7337137c44350b794ae2612",
+      "unitCode": "CPCCOM1015",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 3,
+      "slides": null
+    },
+    {
+      "path": "Resources/6. CPCCOM1015 Carry out measurements and calculations/CPCCOM1015 Student pack V10.0.pdf",
+      "size": 794343,
+      "sha256": "6c1597958d9b23fa447547b3e6ce5486e2f5ab1e8b7143d1ba099f521cb201b8",
+      "unitCode": "CPCCOM1015",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 48,
+      "slides": null
+    },
+    {
+      "path": "Resources/7. CPCCOM2001 Read and interpret plans and specifications/CPCCOM2001 Class activity book - Student.pdf",
+      "size": 509024,
+      "sha256": "fba7927eb87cbc3a710da2560a24cc36958c1f7c4dbeaee542b2f86a8731e36d",
+      "unitCode": "CPCCOM2001",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 17,
+      "slides": null
+    },
+    {
+      "path": "Resources/7. CPCCOM2001 Read and interpret plans and specifications/CPCCOM2001 Learner guide.pdf",
+      "size": 2116964,
+      "sha256": "fabbbe2aa81e0fb7cc3dcd6549b27162a0b7ebfe4d7c75eeb7b6670588a7469c",
+      "unitCode": "CPCCOM2001",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 49,
+      "slides": null
+    },
+    {
+      "path": "Resources/7. CPCCOM2001 Read and interpret plans and specifications/CPCCOM2001 Presentation.pptx",
+      "size": 1717051,
+      "sha256": "84facb5748e05828e784a6d70bc79961d6c16b574a89a0d4db8ae51917b049da",
+      "unitCode": "CPCCOM2001",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 37
+    },
+    {
+      "path": "Resources/7. CPCCOM2001 Read and interpret plans and specifications/CPCCOM2001 Self Study Guide.pdf",
+      "size": 430500,
+      "sha256": "f4f1096df82882c01244303470de44236036d8a77af39abeccf3e54a366d687b",
+      "unitCode": "CPCCOM2001",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 5,
+      "slides": null
+    },
+    {
+      "path": "Resources/7. CPCCOM2001 Read and interpret plans and specifications/CPCCOM2001 Student Pack V10.1.pdf",
+      "size": 784428,
+      "sha256": "ef8d4b880198e58df185e78e9038bb622ed8a8fac17cd7d3d8b16ff1c35d928a",
+      "unitCode": "CPCCOM2001",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 51,
+      "slides": null
+    },
+    {
+      "path": "Resources/7. CPCCOM2001 Read and interpret plans and specifications/General Building Specifications - For reference prupsoe only.pdf",
+      "size": 1195833,
+      "sha256": "69022219d8406df9949ccfa3b3c7467dda16db2fba05165e7c2c3b1ef4da99be",
+      "unitCode": "CPCCOM2001",
+      "kind": "reference",
+      "title": "General Building Specifications - For reference purpose only",
+      "pages": 23,
+      "slides": null
+    },
+    {
+      "path": "Resources/7. CPCCOM2001 Read and interpret plans and specifications/Technical drawings and plans - For reference prupsoe only.pdf",
+      "size": 2137201,
+      "sha256": "fbcd8e64158c145692e6733b0744d99f2dcf0e8468ccfcc5d056817fa6886b68",
+      "unitCode": "CPCCOM2001",
+      "kind": "reference",
+      "title": "Technical drawings and plans - For reference purpose only",
+      "pages": 13,
+      "slides": null
+    },
+    {
+      "path": "Resources/8. CPCCWF2001 Handle wall and floor tiling materials/CPCCWF2001 Class activity book - Student.pdf",
+      "size": 675025,
+      "sha256": "287fccc3a0498fb9e40d0490a73e3f15adb9e1f7dd115b89c0393fde8a306ad6",
+      "unitCode": "CPCCWF2001",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 14,
+      "slides": null
+    },
+    {
+      "path": "Resources/8. CPCCWF2001 Handle wall and floor tiling materials/CPCCWF2001 Learner Guide.pdf",
+      "size": 3223914,
+      "sha256": "f7732ffbd7886c9843de2a6c44eb4b9381dfdb80d2f9663e649b54c4ad0a11d7",
+      "unitCode": "CPCCWF2001",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 96,
+      "slides": null
+    },
+    {
+      "path": "Resources/8. CPCCWF2001 Handle wall and floor tiling materials/CPCCWF2001 Presentation.pptx",
+      "size": 2684061,
+      "sha256": "270e54b6e68334488d1cd3f7ce902a867e15c454a0f16388e59aa8f8000d1e15",
+      "unitCode": "CPCCWF2001",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 48
+    },
+    {
+      "path": "Resources/8. CPCCWF2001 Handle wall and floor tiling materials/CPCCWF2001 Self Study Guide.pdf",
+      "size": 548810,
+      "sha256": "ac237542bd2bb293ad2a13c77f26b3626aaae8865616388574ca4e542cfa9f26",
+      "unitCode": "CPCCWF2001",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 5,
+      "slides": null
+    },
+    {
+      "path": "Resources/8. CPCCWF2001 Handle wall and floor tiling materials/CPCCWF2001 Student Pack V10.0.pdf",
+      "size": 945942,
+      "sha256": "555cfecbbd1a02ba94a5bf342b8844aa622737fba150dc0757cdb1b4f87d9548",
+      "unitCode": "CPCCWF2001",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 62,
+      "slides": null
+    },
+    {
+      "path": "Resources/9. CPCCWF2002 Use wall and floor tiling tools and equipment/CPCCWF2002 Class activity book - Student pack.pdf",
+      "size": 536951,
+      "sha256": "ca030b93cbd43502f41351caab3fc10b8ea0964544179bd9465edd55901d6414",
+      "unitCode": "CPCCWF2002",
+      "kind": "activity-book",
+      "title": "Class activity book",
+      "pages": 6,
+      "slides": null
+    },
+    {
+      "path": "Resources/9. CPCCWF2002 Use wall and floor tiling tools and equipment/CPCCWF2002 Learner Guide.pdf",
+      "size": 2441195,
+      "sha256": "153a72411b8da1904bea20762e36591d406e19bed579bd57c4585b653ab3dd08",
+      "unitCode": "CPCCWF2002",
+      "kind": "learner-guide",
+      "title": "Learner guide",
+      "pages": 80,
+      "slides": null
+    },
+    {
+      "path": "Resources/9. CPCCWF2002 Use wall and floor tiling tools and equipment/CPCCWF2002 Presentation.pptx",
+      "size": 1934013,
+      "sha256": "bac2d2dae5437bce1c151e03b706e47afd0d618948bda12cfa12a787d7eded57",
+      "unitCode": "CPCCWF2002",
+      "kind": "presentation",
+      "title": "Class presentation",
+      "pages": null,
+      "slides": 88
+    },
+    {
+      "path": "Resources/9. CPCCWF2002 Use wall and floor tiling tools and equipment/CPCCWF2002 Self Study Guide.pdf",
+      "size": 545476,
+      "sha256": "b487b8ee2a7021c0741da1055c4188caad6f227cf306d32a14ef512466faf415",
+      "unitCode": "CPCCWF2002",
+      "kind": "self-study",
+      "title": "Self-study guide",
+      "pages": 5,
+      "slides": null
+    },
+    {
+      "path": "Resources/9. CPCCWF2002 Use wall and floor tiling tools and equipment/CPCCWF2002 Student Pack V10.0.pdf",
+      "size": 1041880,
+      "sha256": "1538ef98d1b05a35679e0f1198bc1885dee8be4fdf3f2cabef907b8cf3dbf23b",
+      "unitCode": "CPCCWF2002",
+      "kind": "assessment",
+      "title": "Student assessment pack",
+      "pages": 82,
+      "slides": null
+    }
+  ]
+}

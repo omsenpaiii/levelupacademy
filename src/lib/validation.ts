@@ -57,6 +57,9 @@ export function videoEmbed(raw: string) {
 }
 export const uploadTypes: Record<string, string[]> = {
   "application/pdf": ["pdf"],
+  "application/vnd.openxmlformats-officedocument.presentationml.presentation": [
+    "pptx",
+  ],
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document": [
     "docx",
   ],

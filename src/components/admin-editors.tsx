@@ -309,14 +309,17 @@ export function AssessmentEditor({
 export function ResourceUpload({
   courseId,
   assessmentId,
+  lessonId,
 }: {
   courseId: string;
   assessmentId?: string;
+  lessonId?: string;
 }) {
   return (
     <FileUpload
       courseId={courseId}
       assessmentId={assessmentId}
+      lessonId={lessonId}
       kind="resource"
     />
   );

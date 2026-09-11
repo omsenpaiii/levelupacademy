@@ -15,6 +15,13 @@
       "when": 1788636786044,
       "tag": "0001_military_shape",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789105794494,
+      "tag": "0002_fluffy_puck",
+      "breakpoints": true
     }
   ]
 }

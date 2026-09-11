@@ -147,6 +147,7 @@ export const files = pgTable("files", {
     .references(() => profiles.id),
   courseId: text("course_id").references(() => courses.id),
   assessmentId: text("assessment_id").references(() => assessments.id),
+  lessonId: text("lesson_id").references(() => lessons.id),
   title: text("title").notNull(),
   pathname: text("pathname").notNull().unique(),
   contentType: text("content_type").notNull(),

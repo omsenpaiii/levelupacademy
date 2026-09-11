@@ -1,0 +1,2 @@
+ALTER TABLE "files" ADD COLUMN "lesson_id" text;--> statement-breakpoint
+ALTER TABLE "files" ADD CONSTRAINT "files_lesson_id_lessons_id_fk" FOREIGN KEY ("lesson_id") REFERENCES "public"."lessons"("id") ON DELETE no action ON UPDATE no action;

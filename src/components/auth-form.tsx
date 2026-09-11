@@ -31,7 +31,7 @@ export function AuthForm({
     <div className="auth-page">
       <section className="auth-visual">
         <Link href="/students" className="brand">
-          <img src="/images/logo.png" alt="Level Up Academy" />
+          <img src="/images/logo.svg" alt="Level Up Academy" />
         </Link>
         <h1>
           A little ambition.
@@ -50,7 +50,7 @@ export function AuthForm({
       <section className="auth-form-side">
         <div className="auth-form">
           <Link href="/students" className="auth-mobile-logo">
-            <img src="/images/logo.png" alt="Level Up Academy" />
+            <img src="/images/logo.svg" alt="Level Up Academy" />
           </Link>
           <h2>{title}</h2>
           <p>

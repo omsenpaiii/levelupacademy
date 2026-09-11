@@ -87,7 +87,7 @@ export function Shell({
           className="brand"
           onClick={() => setOpen(false)}
         >
-          <img src="/images/logo.png" alt="Level Up Academy" />
+          <img src="/images/logo.svg" alt="Level Up Academy" />
         </Link>
         <div className="sidebar-label">
           {admin ? "STAFF WORKSPACE" : "YOUR STUDENT SPACE"}

@@ -189,12 +189,14 @@ export function ActionButton({
 export function FileUpload({
   courseId,
   assessmentId,
+  lessonId,
   kind,
   onUploaded,
   onBusy,
 }: {
   courseId: string;
   assessmentId?: string;
+  lessonId?: string;
   kind: "resource" | "submission";
   onUploaded?: (id: string) => void;
   onBusy?: (busy: boolean) => void;
@@ -211,7 +213,7 @@ export function FileUpload({
       </span>
       <input
         type="file"
-        accept=".pdf,.docx,.xlsx,.png,.jpg,.jpeg"
+        accept=".pdf,.docx,.xlsx,.pptx,.png,.jpg,.jpeg"
         disabled={busy}
         onChange={async (e) => {
           const f = e.target.files?.[0];
@@ -227,7 +229,12 @@ export function FileUpload({
               {
                 access: "private",
                 handleUploadUrl: "/api/uploads",
-                clientPayload: JSON.stringify({ courseId, assessmentId, kind }),
+                clientPayload: JSON.stringify({
+                  courseId,
+                  assessmentId,
+                  lessonId,
+                  kind,
+                }),
               },
             );
             const res = await fetch("/api/uploads/complete", {
@@ -237,6 +244,7 @@ export function FileUpload({
                 url: result.url,
                 courseId,
                 assessmentId,
+                lessonId,
                 kind,
                 title: f.name,
               }),
@@ -258,7 +266,7 @@ export function FileUpload({
           }
         }}
       />
-      <small>PDF, Word, Excel, JPG or PNG. Maximum 20 MB.</small>
+      <small>PDF, Word, Excel, PowerPoint, JPG or PNG. Maximum 20 MB.</small>
       {message && (
         <span className="text-small" role="status">
           <Upload size={13} style={{ display: "inline", marginRight: 7 }} />
