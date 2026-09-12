@@ -5,6 +5,7 @@ import { eq } from "drizzle-orm";
 import { auth } from "./auth/server";
 import { db } from "./db";
 import { profiles } from "./schema";
+import { isApprovedAdmin } from "./admin-access";
 export const getUser = cache(async () => {
   const { data } = await auth.getSession();
   const u = data?.user;
@@ -19,7 +20,17 @@ export const getUser = cache(async () => {
     .onConflictDoNothing();
   const p = await db.query.profiles.findFirst({ where: eq(profiles.id, u.id) });
   if (!p || p.archived) return null;
-  return { ...p, emailVerified: u.emailVerified };
+  return {
+    ...p,
+    role: isApprovedAdmin(
+      u.email,
+      u.emailVerified,
+      process.env.ADMIN_EMAIL_ALLOWLIST,
+    )
+      ? ("admin" as const)
+      : p.role,
+    emailVerified: u.emailVerified,
+  };
 });
 export async function requireUser() {
   const u = await getUser();

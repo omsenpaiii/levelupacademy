@@ -115,7 +115,7 @@ export function AuthForm({
                 if (signin || signup || verify) {
                   window.location.href = signup
                     ? `/auth/verify?email=${encodeURIComponent(email)}`
-                    : "/students";
+                    : "/auth/continue";
                 } else
                   setMessage(
                     reset

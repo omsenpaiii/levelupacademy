@@ -18,9 +18,11 @@ Checks: `npm run typecheck`, `npm run lint`, `npm test`, `npm run build`.
 
 With the development server running, run `npm run test:setup`, `npx playwright install chromium`, then `npm run test:e2e`. The setup creates synthetic accounts only on the isolated development branch and stores their random credentials in ignored `.qa/accounts.json`. These development test identities are marked verified through the test database; this is not a production email-delivery test. Integration tests cover admissions, learning, trainer feedback and resubmission, private files, LLN, access revocation, Excel import/export, responsive layouts and automated WCAG checks. Use the hosted production verification flow to test actual email delivery with a real recipient.
 
-## First administrator
+## Administrator access
 
-Register through `/auth/sign-up` and verify the email using the code. The operator then runs `npm run admin:grant -- verified-email@example.com` against the intended database. For production, use `ENV_FILE=.env.production.local npm run admin:grant -- verified-email@example.com`. No default administrator password or public role-escalation endpoint exists. Staff tools are at `/admin`.
+Set the server-only `ADMIN_EMAIL_ALLOWLIST` to a comma-separated list of approved email addresses in the intended deployment environment and redeploy. Approved users register through `/auth/sign-up` and verify their email using the code; subsequent requests grant admin access using the verified Neon Auth identity. Sign-in and verification route admins to `/admin` and students to `/students`. Archived profiles remain blocked. Removing an email removes this eligibility; separately granted database admin roles must be revoked separately.
+
+For a permanent, manually assigned role, register through `/auth/sign-up` and verify the email using the code. The operator then runs `npm run admin:grant -- verified-email@example.com` against the intended database. For production, use `ENV_FILE=.env.production.local npm run admin:grant -- verified-email@example.com`. No default administrator password or public role-escalation endpoint exists. Staff tools are at `/admin`.
 
 ## Operating the Academy
 

@@ -16,7 +16,7 @@ test("staff Excel preview and commit; mobile profile and support", async ({
   await page.getByLabel("Email address", { exact: true }).fill(a.email);
   await page.getByLabel("Password", { exact: true }).fill(a.password);
   await page.getByRole("button", { name: "Sign in", exact: true }).click();
-  await expect(page).toHaveURL(/\/students$/, { timeout: 30000 });
+  await expect(page).toHaveURL(a.role === "admin" ? /\/admin$/ : /\/students$/, { timeout: 30000 });
   const book = new ExcelJS.Workbook();
   const sheet = book.addWorksheet("Enrolments");
   sheet.addRow(["email", "courseSlug", "status"]);

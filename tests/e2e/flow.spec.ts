@@ -20,7 +20,7 @@ async function signIn(
   await page.getByLabel("Email address", { exact: true }).fill(account.email);
   await page.getByLabel("Password", { exact: true }).fill(account.password);
   await page.getByRole("button", { name: "Sign in", exact: true }).click();
-  await expect(page).toHaveURL(/\/students$/, { timeout: 30000 });
+  await expect(page).toHaveURL(account.role === "admin" ? /\/admin$/ : /\/students$/, { timeout: 30000 });
 }
 test("complete student and staff learning workflow", async ({ browser }) => {
   test.setTimeout(180000);

@@ -16,7 +16,7 @@ async function signIn(page: Page, role: string) {
   await page.getByLabel("Email address", { exact: true }).fill(a.email);
   await page.getByLabel("Password", { exact: true }).fill(a.password);
   await page.getByRole("button", { name: "Sign in", exact: true }).click();
-  await expect(page).toHaveURL(/\/students$/, { timeout: 30000 });
+  await expect(page).toHaveURL(role === "admin" ? /\/admin$/ : /\/students$/, { timeout: 30000 });
 }
 test("private upload, LLN builder and access revocation", async ({
   browser,
